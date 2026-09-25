@@ -42,7 +42,7 @@ Original experimental MAT files and university teaching materials are excluded b
 
 ## Citation
 
-Use the title and Version 3 manuscript description above until the author metadata in [CITATION.cff](CITATION.cff) is finalized. No publication venue or DOI is claimed.
+Citation metadata are provided in CITATION.cff. A preprint identifier or DOI will be added if the manuscript is publicly archived or published. 
 
 ## License
 
