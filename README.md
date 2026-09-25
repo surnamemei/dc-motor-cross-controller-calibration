@@ -38,6 +38,8 @@ Original experimental MAT files and university teaching materials are excluded b
 
 ## Manuscript and limitations
 
+Preprint PDF: [paper.pdf](paper.pdf)
+
 [Manuscript Version 3](manuscript/manuscript_v3.md) reports a restricted pilot on one physical motor. Only two controller configurations have independent repeated runs; run chronology and controller identity remain partly confounded. FAR means nominal-operation **sample-level score exceedance**, not a per-cycle or independent-event alarm probability. Positive-severity degradation sensitivity is simulated, not physical-fault evidence.
 
 ## Citation
