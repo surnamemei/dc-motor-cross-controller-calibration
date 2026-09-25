@@ -1,7 +1,10 @@
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.venv/
-venv/
-.DS_Store
-Thumbs.db
+README.md
+LICENSE
+CITATION.cff
+config/
+data/
+docs/
+manuscript/
+results/
+scripts/
+tests/
