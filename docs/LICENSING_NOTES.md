@@ -1,5 +1,23 @@
 # Licensing notes
 
-No software or data license was selected for this packaging task. The root `LICENSE` is an explicit **no-license placeholder**, not an MIT grant. Before a public release, the research author/owner should choose and insert a license for original code and state separately whether the manuscript, figures, and processed data may be reused. MIT is one possible permissive option for original code, but must not be applied automatically to data or third-party assets.
+The repository's MIT License applies to original software code and associated
+software documentation authored for this research project.
 
-The package does not contain original experimental MAT recordings, university teaching materials, lecturer Simulink/MATLAB models, course templates, or compiled hardware assets. No eventual license in this tree should imply rights over them. The research-authored statistical tables and plots are derived summaries rather than copies of those materials; confirm the owner's authority to release these artifacts and finalize author names in `CITATION.cff` before making the GitHub repository public.
+It does not grant rights over material that is not included in this public
+release, including:
+
+- original university teaching materials;
+- laboratory manuals;
+- lecturer-provided MATLAB/Simulink models or templates;
+- original experimental MAT files;
+- third-party copyrighted material.
+
+The processed research data, manuscript, and research figures are released as
+research artifacts accompanying this repository. Unless a separate license is
+explicitly stated for those materials, the MIT software license should not be
+interpreted as granting additional rights over excluded or third-party content.
+
+The public repository contains only curated research-authored code, derived
+statistical data, manuscript material, and research figures. Redistribution
+rights for the original experimental recordings and university course
+materials have not been established, so those materials are not included.

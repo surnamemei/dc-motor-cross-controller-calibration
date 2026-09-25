@@ -1,10 +1,71 @@
-README.md
-LICENSE
-CITATION.cff
-config/
-data/
-docs/
-manuscript/
-results/
-scripts/
-tests/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+cache/
+tmp/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.local
+local_config.*
+paths_config.*
+
+# Raw/private research material
+*.mat
+*.slx
+*.mdl
+*.asv
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+
+# Large/intermediate generated analysis
+results/**/tmp/
+results/**/intermediate/
+results/**/bootstrap_cache/
+results/**/raw_simulations/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Python packaging
+build/
+dist/
+*.egg-info/

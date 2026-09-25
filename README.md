@@ -46,4 +46,10 @@ Use the title and Version 3 manuscript description above until the author metada
 
 ## License
 
-The [LICENSE](LICENSE) file records that a reuse license has not yet been selected. [Licensing notes](docs/LICENSING_NOTES.md) distinguish original code, derived data, figures, and excluded materials. Do not assume this tree licenses original experimental or university-provided files.
+Original research software in this repository is released under the
+[MIT License](LICENSE).
+
+The license does not apply to excluded university teaching materials,
+unreleased original experimental MAT files, or third-party copyrighted
+content. See [licensing notes](docs/LICENSING_NOTES.md) for the scope of the
+public release.

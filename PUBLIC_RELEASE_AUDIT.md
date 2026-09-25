@@ -1,6 +1,14 @@
 # Public release audit
 
-**Decision: READY FOR PUBLIC GITHUB WITH DATA LIMITATION.** This refers to the curated contents of this directory only. No Git repository was initialized and nothing was pushed. The parent/private research repository and its history must not be published. The research manuscript and numerical methods remain frozen.
+**Decision: READY FOR PUBLIC GITHUB WITH DATA LIMITATION.**
+
+This audit concerns the curated public repository only. The repository was
+created from a separate release tree with fresh Git history and does not
+contain the private research repository's history, original university course
+materials, or original experimental MAT files.
+
+The scientific manuscript and numerical methods were frozen before public
+packaging.
 
 ## SAFE TO PUBLISH
 
@@ -18,12 +26,17 @@
 ## REQUIRES RIGHTS CLARIFICATION
 
 - Redistribution of the original MAT files and university/course materials remains unestablished. They stay excluded; the release does not need them for Level A statistical reproduction.
-- No reuse license was selected. `LICENSE` is an explicit no-license placeholder; select a license for original code and separately decide terms for data/manuscript/figures if reuse permission is desired. It does not cover excluded material. Finalize author names in `CITATION.cff` before treating it as publication metadata.
+- The repository uses the MIT License for original research software.
+  Redistribution rights for the excluded original MAT files and university
+  course materials remain unestablished, so those materials remain outside
+  the public release.
 - Figure 5's derived static plot is included as research-authored expression, while its underlying score data remain excluded. If the project owner has any contractual restriction on derived aggregate plots or statistics, withhold that item and update the data statement before release.
 
 ## Checks performed
 
-- A recursive check found **no `.git` directory inside the curated tree**. Its future public repository must begin with fresh history.
+- The public repository was initialized with fresh Git history from the
+  curated release tree; no history from the private/internal research
+  repository was copied into it.
 - A recursive file-extension check found no `.mat`, `.slx`, `.m`, `.bin`, `.elf`, or `.hex` payload.
 - Text scans found no course directory names, original MAT filenames, private absolute Windows/Linux paths, usernames, or common API-key/private-key signatures; the forbidden-extension strings in the test are intentional.
 - All seven manuscript figure links resolve within the curated tree. Principal generated figures were visually checked for labelled axes and legibility.
