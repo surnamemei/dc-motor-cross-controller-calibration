@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Mei"
     given-names: "Jinghang"
+    orcid: "https://orcid.org/0009-0007-2901-3285"
 version: 0.1.0
 date-released: 2026-09-25
 license: MIT

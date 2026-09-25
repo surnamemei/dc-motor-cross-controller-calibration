@@ -13,9 +13,11 @@ release, including:
 - third-party copyrighted material.
 
 The processed research data, manuscript, and research figures are released as
-research artifacts accompanying this repository. Unless a separate license is
-explicitly stated for those materials, the MIT software license should not be
-interpreted as granting additional rights over excluded or third-party content.
+research artifacts accompanying this repository. The planned Zenodo preprint
+record specifies CC BY 4.0 for the paper only; it does not change the MIT
+license for original research software or grant rights over excluded or
+third-party content. No separate license is asserted here for processed data
+or research figures.
 
 The public repository contains only curated research-authored code, derived
 statistical data, manuscript material, and research figures. Redistribution

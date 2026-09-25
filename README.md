@@ -2,6 +2,14 @@
 
 This repository accompanies an independent research preprint / manuscript. It has not been represented as peer-reviewed or accepted for publication.
 
+## Author
+
+Jinghang Mei<br>
+The University of Sydney<br>
+ORCID: https://orcid.org/0009-0007-2901-3285
+
+The affiliation identifies the author and does not imply institutional endorsement.
+
 ## Research question
 
 How portable is a fixed residual monitor's nominal-operation sample false-alarm calibration across different PI configurations exercised on the same physical DC motor?
@@ -38,13 +46,13 @@ Original experimental MAT files and university teaching materials are excluded b
 
 ## Manuscript and limitations
 
-Preprint PDF: [paper.pdf](paper.pdf)
+**Preprint PDF:** [paper.pdf](manuscript/paper.pdf)
 
 [Manuscript Version 3](manuscript/manuscript_v3.md) reports a restricted pilot on one physical motor. Only two controller configurations have independent repeated runs; run chronology and controller identity remain partly confounded. FAR means nominal-operation **sample-level score exceedance**, not a per-cycle or independent-event alarm probability. Positive-severity degradation sensitivity is simulated, not physical-fault evidence.
 
 ## Citation
 
-Citation metadata are provided in CITATION.cff. A preprint identifier or DOI will be added if the manuscript is publicly archived or published. 
+Software citation metadata are provided in [CITATION.cff](CITATION.cff). A preprint, arXiv, or journal identifier can be added if one is issued; none is asserted here. Manual paper-deposit fields are recorded in [Zenodo metadata notes](docs/ZENODO_METADATA.md).
 
 ## License
 
