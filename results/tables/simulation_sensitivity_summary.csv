@@ -1,0 +1,121 @@
+degradation_mode,severity_fraction,strategy,channel,sample_weighted_exceedance_fraction,quantity
+A_reduction,0.0,SINGLE_CONTROLLER_HELD_OUT,r_y,0.01113235294117647,observed nominal-operation sample FAR
+A_reduction,0.0,SINGLE_CONTROLLER_HELD_OUT,r_u,0.010441176470588235,observed nominal-operation sample FAR
+A_reduction,0.0,SINGLE_CONTROLLER_HELD_OUT,joint,0.0105,observed nominal-operation sample FAR
+A_reduction,0.0,DURATION_POOLED_GLOBAL,r_y,0.00998529411764706,observed nominal-operation sample FAR
+A_reduction,0.0,DURATION_POOLED_GLOBAL,r_u,0.00998529411764706,observed nominal-operation sample FAR
+A_reduction,0.0,DURATION_POOLED_GLOBAL,joint,0.00998529411764706,observed nominal-operation sample FAR
+A_reduction,0.0,CONTROLLER_BALANCED_GLOBAL,r_y,0.013558823529411766,observed nominal-operation sample FAR
+A_reduction,0.0,CONTROLLER_BALANCED_GLOBAL,r_u,0.015294117647058824,observed nominal-operation sample FAR
+A_reduction,0.0,CONTROLLER_BALANCED_GLOBAL,joint,0.012102941176470589,observed nominal-operation sample FAR
+A_reduction,0.0,DURATION_POOLED_LOCO,r_y,0.010558823529411765,observed nominal-operation sample FAR
+A_reduction,0.0,DURATION_POOLED_LOCO,r_u,0.011720588235294118,observed nominal-operation sample FAR
+A_reduction,0.0,DURATION_POOLED_LOCO,joint,0.010455882352941176,observed nominal-operation sample FAR
+A_reduction,0.05,SINGLE_CONTROLLER_HELD_OUT,r_y,0.010426470588235294,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,SINGLE_CONTROLLER_HELD_OUT,r_u,0.010338235294117646,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,SINGLE_CONTROLLER_HELD_OUT,joint,0.02376470588235294,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,DURATION_POOLED_GLOBAL,r_y,0.009808823529411764,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,DURATION_POOLED_GLOBAL,r_u,0.010426470588235294,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,DURATION_POOLED_GLOBAL,joint,0.01036764705882353,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,CONTROLLER_BALANCED_GLOBAL,r_y,0.013058823529411765,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,CONTROLLER_BALANCED_GLOBAL,r_u,0.015029411764705883,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,CONTROLLER_BALANCED_GLOBAL,joint,0.01198529411764706,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,DURATION_POOLED_LOCO,r_y,0.010647058823529412,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,DURATION_POOLED_LOCO,r_u,0.011838235294117648,simulation-based threshold-exceedance sensitivity
+A_reduction,0.05,DURATION_POOLED_LOCO,joint,0.010897058823529412,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,SINGLE_CONTROLLER_HELD_OUT,r_y,0.014426470588235294,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,SINGLE_CONTROLLER_HELD_OUT,r_u,0.07801470588235294,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,SINGLE_CONTROLLER_HELD_OUT,joint,0.07430882352941176,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,DURATION_POOLED_GLOBAL,r_y,0.013147058823529411,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,DURATION_POOLED_GLOBAL,r_u,0.014,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,DURATION_POOLED_GLOBAL,joint,0.015529411764705882,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,CONTROLLER_BALANCED_GLOBAL,r_y,0.017588235294117648,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,CONTROLLER_BALANCED_GLOBAL,r_u,0.02061764705882353,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,CONTROLLER_BALANCED_GLOBAL,joint,0.029,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,DURATION_POOLED_LOCO,r_y,0.014132352941176471,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,DURATION_POOLED_LOCO,r_u,0.015705882352941177,simulation-based threshold-exceedance sensitivity
+A_reduction,0.1,DURATION_POOLED_LOCO,joint,0.015941176470588236,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,SINGLE_CONTROLLER_HELD_OUT,r_y,0.030147058823529412,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,SINGLE_CONTROLLER_HELD_OUT,r_u,0.33838235294117647,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,SINGLE_CONTROLLER_HELD_OUT,joint,0.24283823529411766,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,DURATION_POOLED_GLOBAL,r_y,0.025279411764705884,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,DURATION_POOLED_GLOBAL,r_u,0.3473970588235294,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,DURATION_POOLED_GLOBAL,joint,0.12480882352941176,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,CONTROLLER_BALANCED_GLOBAL,r_y,0.0305,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,CONTROLLER_BALANCED_GLOBAL,r_u,0.40347058823529414,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,CONTROLLER_BALANCED_GLOBAL,joint,0.13455882352941176,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,DURATION_POOLED_LOCO,r_y,0.025897058823529412,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,DURATION_POOLED_LOCO,r_u,0.35213235294117645,simulation-based threshold-exceedance sensitivity
+A_reduction,0.2,DURATION_POOLED_LOCO,joint,0.1270294117647059,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,SINGLE_CONTROLLER_HELD_OUT,r_y,0.04963235294117647,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,SINGLE_CONTROLLER_HELD_OUT,r_u,0.47205882352941175,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,SINGLE_CONTROLLER_HELD_OUT,joint,0.3744852941176471,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,DURATION_POOLED_GLOBAL,r_y,0.04245588235294118,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,DURATION_POOLED_GLOBAL,r_u,0.5041911764705882,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,DURATION_POOLED_GLOBAL,joint,0.16548529411764706,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,CONTROLLER_BALANCED_GLOBAL,r_y,0.04804411764705882,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,CONTROLLER_BALANCED_GLOBAL,r_u,0.5110294117647058,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,CONTROLLER_BALANCED_GLOBAL,joint,0.5204852941176471,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,DURATION_POOLED_LOCO,r_y,0.04298529411764706,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,DURATION_POOLED_LOCO,r_u,0.5051470588235294,simulation-based threshold-exceedance sensitivity
+A_reduction,0.3,DURATION_POOLED_LOCO,joint,0.3149411764705882,simulation-based threshold-exceedance sensitivity
+B_increase,0.0,SINGLE_CONTROLLER_HELD_OUT,r_y,0.01113235294117647,observed nominal-operation sample FAR
+B_increase,0.0,SINGLE_CONTROLLER_HELD_OUT,r_u,0.010441176470588235,observed nominal-operation sample FAR
+B_increase,0.0,SINGLE_CONTROLLER_HELD_OUT,joint,0.0105,observed nominal-operation sample FAR
+B_increase,0.0,DURATION_POOLED_GLOBAL,r_y,0.00998529411764706,observed nominal-operation sample FAR
+B_increase,0.0,DURATION_POOLED_GLOBAL,r_u,0.00998529411764706,observed nominal-operation sample FAR
+B_increase,0.0,DURATION_POOLED_GLOBAL,joint,0.00998529411764706,observed nominal-operation sample FAR
+B_increase,0.0,CONTROLLER_BALANCED_GLOBAL,r_y,0.013558823529411766,observed nominal-operation sample FAR
+B_increase,0.0,CONTROLLER_BALANCED_GLOBAL,r_u,0.015294117647058824,observed nominal-operation sample FAR
+B_increase,0.0,CONTROLLER_BALANCED_GLOBAL,joint,0.012102941176470589,observed nominal-operation sample FAR
+B_increase,0.0,DURATION_POOLED_LOCO,r_y,0.010558823529411765,observed nominal-operation sample FAR
+B_increase,0.0,DURATION_POOLED_LOCO,r_u,0.011720588235294118,observed nominal-operation sample FAR
+B_increase,0.0,DURATION_POOLED_LOCO,joint,0.010455882352941176,observed nominal-operation sample FAR
+B_increase,0.05,SINGLE_CONTROLLER_HELD_OUT,r_y,0.009397058823529411,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,SINGLE_CONTROLLER_HELD_OUT,r_u,0.006411764705882353,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,SINGLE_CONTROLLER_HELD_OUT,joint,0.007911764705882353,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,DURATION_POOLED_GLOBAL,r_y,0.008352941176470589,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,DURATION_POOLED_GLOBAL,r_u,0.008,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,DURATION_POOLED_GLOBAL,joint,0.008529411764705883,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,CONTROLLER_BALANCED_GLOBAL,r_y,0.01061764705882353,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,CONTROLLER_BALANCED_GLOBAL,r_u,0.013808823529411764,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,CONTROLLER_BALANCED_GLOBAL,joint,0.009852941176470589,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,DURATION_POOLED_LOCO,r_y,0.008926470588235294,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,DURATION_POOLED_LOCO,r_u,0.010352941176470589,simulation-based threshold-exceedance sensitivity
+B_increase,0.05,DURATION_POOLED_LOCO,joint,0.008882352941176471,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,SINGLE_CONTROLLER_HELD_OUT,r_y,0.008808823529411765,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,SINGLE_CONTROLLER_HELD_OUT,r_u,0.004941176470588235,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,SINGLE_CONTROLLER_HELD_OUT,joint,0.0068970588235294115,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,DURATION_POOLED_GLOBAL,r_y,0.008205882352941176,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,DURATION_POOLED_GLOBAL,r_u,0.00775,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,DURATION_POOLED_GLOBAL,joint,0.008191176470588235,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,CONTROLLER_BALANCED_GLOBAL,r_y,0.011470588235294118,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,CONTROLLER_BALANCED_GLOBAL,r_u,0.013220588235294118,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,CONTROLLER_BALANCED_GLOBAL,joint,0.009147058823529411,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,DURATION_POOLED_LOCO,r_y,0.009014705882352942,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,DURATION_POOLED_LOCO,r_u,0.010264705882352941,simulation-based threshold-exceedance sensitivity
+B_increase,0.1,DURATION_POOLED_LOCO,joint,0.00836764705882353,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,SINGLE_CONTROLLER_HELD_OUT,r_y,0.014279411764705882,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,SINGLE_CONTROLLER_HELD_OUT,r_u,0.008088235294117648,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,SINGLE_CONTROLLER_HELD_OUT,joint,0.014294117647058823,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,DURATION_POOLED_GLOBAL,r_y,0.01188235294117647,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,DURATION_POOLED_GLOBAL,r_u,0.01163235294117647,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,DURATION_POOLED_GLOBAL,joint,0.012191176470588235,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,CONTROLLER_BALANCED_GLOBAL,r_y,0.015720588235294118,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,CONTROLLER_BALANCED_GLOBAL,r_u,0.016455882352941178,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,CONTROLLER_BALANCED_GLOBAL,joint,0.014573529411764706,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,DURATION_POOLED_LOCO,r_y,0.012794117647058824,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,DURATION_POOLED_LOCO,r_u,0.01375,simulation-based threshold-exceedance sensitivity
+B_increase,0.2,DURATION_POOLED_LOCO,joint,0.013,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,SINGLE_CONTROLLER_HELD_OUT,r_y,0.023323529411764705,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,SINGLE_CONTROLLER_HELD_OUT,r_u,0.015897058823529413,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,SINGLE_CONTROLLER_HELD_OUT,joint,0.024073529411764705,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,DURATION_POOLED_GLOBAL,r_y,0.018426470588235294,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,DURATION_POOLED_GLOBAL,r_u,0.01675,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,DURATION_POOLED_GLOBAL,joint,0.02251470588235294,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,CONTROLLER_BALANCED_GLOBAL,r_y,0.023852941176470587,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,CONTROLLER_BALANCED_GLOBAL,r_u,0.02260294117647059,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,CONTROLLER_BALANCED_GLOBAL,joint,0.027352941176470587,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,DURATION_POOLED_LOCO,r_y,0.019,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,DURATION_POOLED_LOCO,r_u,0.018191176470588235,simulation-based threshold-exceedance sensitivity
+B_increase,0.3,DURATION_POOLED_LOCO,joint,0.023338235294117646,simulation-based threshold-exceedance sensitivity

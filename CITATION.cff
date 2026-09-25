@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying research manuscript."
+title: "Cross-Controller Validity of Residual-Monitor Calibration in a PI-Controlled DC Motor"
+type: software
+authors:
+  - family-names: "Mei"
+    given-names: "Jinghang"
+version: 0.1.0
+date-released: 2026-09-25
+license: MIT
+repository-code: "https://github.com/surnamemei/dc-motor-cross-controller-calibration"
+abstract: >
+  Research code and processed data supporting an experimental pilot study of
+  cross-controller residual-monitor calibration validity in a PI-controlled
+  DC motor. The public release supports statistical reproduction from derived
+  data; original experimental MAT files and university teaching materials are
+  not redistributed.

@@ -1,0 +1,24 @@
+{
+  "primary_effort_maximum_far": 0.14072916666666666,
+  "primary_effort_maximum_pair": "C04->C01",
+  "archived_cycle_bootstrap_95pct_interval": [
+    0.13342187500000002,
+    0.14708333333333332
+  ],
+  "same_controller_maximum_far": {
+    "r_y": 0.012875,
+    "r_u": 0.013875,
+    "joint": 0.01375
+  },
+  "calibration_error_contrast": {
+    "r_y": 5.204081632653059,
+    "r_u": 3.310344827586207,
+    "joint": 3.2571428571428576
+  },
+  "balanced_diversity_worst_effort_one_controller": 0.4585714285714286,
+  "balanced_diversity_worst_effort_eight_controllers": 0.03760416666666666,
+  "c07_A_reduction_10pct_effort_local_exceedance": 0.3910416666666667,
+  "c07_A_reduction_10pct_effort_duration_LOCO_exceedance": 0.0,
+  "c04_to_c01_effort_mad_ratio": 2.394006263192475,
+  "c04_to_c01_effort_q99_ratio": 2.419011028449549
+}

@@ -1,0 +1,7 @@
+{
+  "target_false_alarm": 0.01,
+  "sample_rate_hz": 200,
+  "samples_per_cycle": 800,
+  "random_seed": 33043,
+  "data_level": "derived aggregate research quantities"
+}
