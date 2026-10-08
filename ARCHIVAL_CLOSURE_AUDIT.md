@@ -14,6 +14,7 @@ changed; nothing was pushed, merged, tagged or published.
 |---|---|
 | `README.md` | Archival-status notice. Limitations sentence repeated under the results. New "External-data assessments" section (honest summary, predictor-architecture caveat, no replication or causal claim). Links to the new docs and folder. The original 14.07 % result and every original section are kept. |
 | `docs/LICENSING_NOTES.md` | Appended a section on the external-validation material (derived third-party metadata; raw files not redistributed) |
+| `CITATION.cff` | Version 0.1.0 → 0.2.0, `date-released` 2026-09-25 → 2026-10-08, one abstract sentence on the archival closure. No DOI added. |
 | `.gitignore` | Added `external_validation/raw/`, so fetched third-party inputs can never be committed |
 
 ## 2. New files
@@ -50,13 +51,13 @@ changed; nothing was pushed, merged, tagged or published.
 
 ## 3. Unchanged scientific files (SHA-256 identical to `main` at `26d1710`)
 
-All 44 files below were hashed before branching and again after all edits; every hash is identical. They include
+All 43 files below were hashed before branching and again after all edits; every hash is identical. They include
 `manuscript/paper.pdf`, `manuscript/manuscript_v3.md`, all of `data/processed/`, all original results, the reproduction
-script, the tests and the configuration.
+script, the tests and the configuration. (`CITATION.cff`, originally
+`9ed88491…a90c95`, was changed only for the 0.2.0 version bump; see section 7.)
 
 | File | SHA-256 |
 |---|---|
-| `CITATION.cff` | `9ed884917afab3a7b94358077c967ba2da033b92df92c80d8ff94a214da90c95` |
 | `LICENSE` | `1abcd710c96bb5c52644cdcedbd09c19171f8a9b183890112b4fb967138c9642` |
 | `config/release_analysis.json` | `42d816d1fa9b14bbf885415e8a18fba9bf70ecce57d6166b4ac1644fa31bee36` |
 | `data/README.md` | `f98f73af11bf22b5b9071dad5630dd8f45ad9614f4e83fc5beeadb9b0f9d483c` |
@@ -146,14 +147,13 @@ re-hosting about 80 MB of other authors' data.
   this.
 
 ## 7. Citation and version metadata
-- `CITATION.cff` is **unchanged** (software version 0.1.0, released 2026-09-25, no DOI).
+- **Released version: 0.2.0** (software). It adds documentation and the separated external-assessment material, with
+  no change to the original scientific content.
+- `CITATION.cff` was updated after approval: `version: 0.2.0`, `date-released: 2026-10-08`, and one abstract sentence.
+  Title, authors, ORCID, licence and repository URL are unchanged.
 - `docs/ZENODO_METADATA.md` is unchanged: a preparation note for a planned paper record, with no DOI reserved.
 - No DOI, journal submission or acceptance is asserted anywhere, and no previously issued identifier was altered (none
   exists).
-- **Proposed release version: 0.2.0** (software). It adds documentation and the separated external-assessment
-  material, with no change to the original scientific content. If approved, update `CITATION.cff` at release time:
-  set `version: 0.2.0` and the actual `date-released`, and optionally add one abstract sentence noting the external
-  assessments. These edits are deliberately not made here, so that no release date is asserted before publication.
 
 ## 8. Status
-Committed locally on `archival-closure-2026-10` only. **Not pushed, merged, tagged or published.**
+Approved by the author on 2026-10-08. Merged into `main` and released as tag `v0.2.0`.

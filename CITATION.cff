@@ -6,8 +6,8 @@ authors:
   - family-names: "Mei"
     given-names: "Jinghang"
     orcid: "https://orcid.org/0009-0007-2901-3285"
-version: 0.1.0
-date-released: 2026-09-25
+version: 0.2.0
+date-released: 2026-10-08
 license: MIT
 repository-code: "https://github.com/surnamemei/dc-motor-cross-controller-calibration"
 abstract: >
@@ -15,4 +15,6 @@ abstract: >
   cross-controller residual-monitor calibration validity in a PI-controlled
   DC motor. The public release supports statistical reproduction from derived
   data; original experimental MAT files and university teaching materials are
-  not redistributed.
+  not redistributed. Version 0.2.0 marks the archival closure of the pilot
+  study and adds a separate record of later external-data assessments; the
+  original manuscript, processed data and results are unchanged.
