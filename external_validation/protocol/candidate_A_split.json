@@ -1,0 +1,328 @@
+{
+  "rules": {
+    "n_cal_min": 8,
+    "n_hold_min": 5,
+    "cal_fraction": 0.6,
+    "excluded_kstar_generations": [
+      4,
+      5
+    ]
+  },
+  "strata": {
+    "2026-04-04": {
+      "decision": "GO",
+      "stop_reasons": [],
+      "acquisition_sessions_of_source_runs": [
+        1
+      ],
+      "calibration_runs_per_session": {
+        "1": 9
+      },
+      "target_sessions": [
+        1
+      ],
+      "kstar_eligible_after_exclusions": 15,
+      "n_calibration": 9,
+      "n_source_holdout": 6,
+      "calibration_generations": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "holdout_generations": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "calibration_time_span": [
+        "2026-04-04 09:32:38",
+        "2026-04-04 09:39:25"
+      ],
+      "holdout_time_span": [
+        "2026-04-04 09:40:16",
+        "2026-04-04 09:44:32"
+      ],
+      "n_target_runs": 42,
+      "n_target_distinct_controllers": 42,
+      "target_ineligible_excluded": 0,
+      "max_gap_holdout_kstar_to_last_target_s": 45.0,
+      "metadata_bias": {
+        "kstar_cal_overshoot_median": 16.467074797073305,
+        "kstar_hold_overshoot_median": 16.467074797073305,
+        "kstar_cal_final_err_median": 0.5389170000000121,
+        "kstar_hold_final_err_median": 0.2694550000000077,
+        "kstar_hold_with_note": 0,
+        "target_overshoot_quartiles": {
+          "0.25": 7.485,
+          "0.5": 9.5808,
+          "0.75": 11.6767
+        },
+        "target_final_err_quartiles": {
+          "0.25": 0.0,
+          "0.5": 0.2695,
+          "0.75": 0.5389
+        },
+        "target_sat_frac_quartiles": {
+          "0.25": 0.0198,
+          "0.5": 0.0198,
+          "0.75": 0.0198
+        },
+        "target_with_note": 2,
+        "target_opt_failure_penalty_frac": 0.9285714285714286,
+        "kstar_hold_opt_failure_penalty_frac": 0.8333333333333334,
+        "target_normalised_gain_distance_to_kstar_quartiles": {
+          "0.25": 0.1459,
+          "0.5": 0.1986,
+          "0.75": 0.2725
+        },
+        "target_Kp_range": [
+          3.589444,
+          7.377416
+        ],
+        "target_Ki_range": [
+          3.946939,
+          9.663465
+        ],
+        "target_Kd_range": [
+          0.163972,
+          0.311437
+        ]
+      }
+    },
+    "2026-05-23": {
+      "decision": "GO",
+      "stop_reasons": [],
+      "acquisition_sessions_of_source_runs": [
+        2
+      ],
+      "calibration_runs_per_session": {
+        "2": 11
+      },
+      "target_sessions": [
+        2
+      ],
+      "kstar_eligible_after_exclusions": 17,
+      "n_calibration": 11,
+      "n_source_holdout": 6,
+      "calibration_generations": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "holdout_generations": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "calibration_time_span": [
+        "2026-05-23 22:33:35",
+        "2026-05-23 23:25:00"
+      ],
+      "holdout_time_span": [
+        "2026-05-23 23:30:09",
+        "2026-05-23 23:55:54"
+      ],
+      "n_target_runs": 284,
+      "n_target_distinct_controllers": 284,
+      "target_ineligible_excluded": 0,
+      "max_gap_holdout_kstar_to_last_target_s": 303.0,
+      "metadata_bias": {
+        "kstar_cal_overshoot_median": 37.42515888223633,
+        "kstar_hold_overshoot_median": 37.874255033267104,
+        "kstar_cal_final_err_median": 1.616767999999993,
+        "kstar_hold_final_err_median": 3.09880050000001,
+        "kstar_hold_with_note": 5,
+        "target_overshoot_quartiles": {
+          "0.25": 13.1737,
+          "0.5": 14.3713,
+          "0.75": 16.1677
+        },
+        "target_final_err_quartiles": {
+          "0.25": 0.8084,
+          "0.5": 1.3473,
+          "0.75": 2.4251
+        },
+        "target_sat_frac_quartiles": {
+          "0.25": 0.0198,
+          "0.5": 0.0198,
+          "0.75": 0.0198
+        },
+        "target_with_note": 108,
+        "target_opt_failure_penalty_frac": 0.7394366197183099,
+        "kstar_hold_opt_failure_penalty_frac": 1.0,
+        "target_normalised_gain_distance_to_kstar_quartiles": {
+          "0.25": 0.285,
+          "0.5": 0.3166,
+          "0.75": 0.3561
+        },
+        "target_Kp_range": [
+          5.160422,
+          7.094092
+        ],
+        "target_Ki_range": [
+          3.365569,
+          9.295071
+        ],
+        "target_Kd_range": [
+          0.248023,
+          0.319608
+        ]
+      }
+    },
+    "2026-05-24": {
+      "decision": "STOP",
+      "stop_reasons": [
+        "source runs span acquisition sessions [2, 3] (matched conditions not met)"
+      ],
+      "acquisition_sessions_of_source_runs": [
+        2,
+        3
+      ],
+      "calibration_runs_per_session": {
+        "2": 3,
+        "3": 11
+      },
+      "target_sessions": [
+        3
+      ],
+      "kstar_eligible_after_exclusions": 23,
+      "n_calibration": 14,
+      "n_source_holdout": 9,
+      "calibration_generations": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "holdout_generations": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "calibration_time_span": [
+        "2026-05-24 00:01:02",
+        "2026-05-24 07:51:51"
+      ],
+      "holdout_time_span": [
+        "2026-05-24 07:56:59",
+        "2026-05-24 08:38:03"
+      ],
+      "n_target_runs": 441,
+      "n_target_distinct_controllers": 441,
+      "target_ineligible_excluded": 0,
+      "max_gap_holdout_kstar_to_last_target_s": 302.0,
+      "metadata_bias": {
+        "kstar_cal_overshoot_median": 38.17365839321407,
+        "kstar_hold_overshoot_median": 38.92216568197028,
+        "kstar_cal_final_err_median": 3.502990000000011,
+        "kstar_hold_final_err_median": 2.964065000000005,
+        "kstar_hold_with_note": 7,
+        "target_overshoot_quartiles": {
+          "0.25": 11.0778,
+          "0.5": 12.2755,
+          "0.75": 13.1737
+        },
+        "target_final_err_quartiles": {
+          "0.25": 0.8084,
+          "0.5": 1.6168,
+          "0.75": 2.4252
+        },
+        "target_sat_frac_quartiles": {
+          "0.25": 0.0198,
+          "0.5": 0.0198,
+          "0.75": 0.0297
+        },
+        "target_with_note": 167,
+        "target_opt_failure_penalty_frac": 0.7210884353741497,
+        "kstar_hold_opt_failure_penalty_frac": 1.0,
+        "target_normalised_gain_distance_to_kstar_quartiles": {
+          "0.25": 0.3489,
+          "0.5": 0.3728,
+          "0.75": 0.3978
+        },
+        "target_Kp_range": [
+          6.055385,
+          7.03876
+        ],
+        "target_Ki_range": [
+          4.212863,
+          7.640633
+        ],
+        "target_Kd_range": [
+          0.268128,
+          0.326807
+        ]
+      }
+    }
+  },
+  "overall_decision": "PARTIAL",
+  "sessions": {
+    "1": {
+      "start": "2026-04-04 09:28:22",
+      "end": "2026-04-04 09:45:16",
+      "runs": "160",
+      "first_gen": "1",
+      "last_gen": "20"
+    },
+    "2": {
+      "start": "2026-05-23 22:33:35",
+      "end": "2026-05-24 00:16:20",
+      "runs": "1000",
+      "first_gen": "21",
+      "last_gen": "40"
+    },
+    "3": {
+      "start": "2026-05-24 07:00:31",
+      "end": "2026-05-24 08:43:05",
+      "runs": "1000",
+      "first_gen": "41",
+      "last_gen": "60"
+    }
+  },
+  "role_counts": {
+    "unused": 1336,
+    "STOPPED_target_evaluation": 441,
+    "target_evaluation": 326,
+    "source_calibration": 20,
+    "STOPPED_source_calibration": 14,
+    "source_holdout": 12,
+    "STOPPED_source_holdout": 9,
+    "excluded_selection_conditioned_Kstar": 2
+  }
+}

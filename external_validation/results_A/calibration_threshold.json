@@ -1,0 +1,69 @@
+{
+  "threshold": {
+    "primary": 5.136797241385764,
+    "sens_b_5pct": 2.446052047203267,
+    "sens_c_k25": 4.347311140926138
+  },
+  "n_calibration_samples": {
+    "primary": 900,
+    "sens_b_5pct": 900,
+    "sens_c_k25": 864
+  },
+  "calibration_far_per_run": {
+    "primary": [
+      0.02,
+      0.01,
+      0.0,
+      0.01,
+      0.0,
+      0.0,
+      0.02,
+      0.0,
+      0.02
+    ],
+    "sens_b_5pct": [
+      0.05,
+      0.02,
+      0.05,
+      0.08,
+      0.02,
+      0.04,
+      0.09,
+      0.02,
+      0.07
+    ],
+    "sens_c_k25": [
+      0.020833333333333332,
+      0.020833333333333332,
+      0.010416666666666666,
+      0.010416666666666666,
+      0.0,
+      0.0,
+      0.020833333333333332,
+      0.0,
+      0.0
+    ]
+  },
+  "calibration_far_mean": {
+    "primary": 0.008888888888888889,
+    "sens_b_5pct": 0.04888888888888889,
+    "sens_c_k25": 0.009259259259259259
+  },
+  "theta_frozen": [
+    -1.667396718497659,
+    0.6663068520648273,
+    0.017660328514098312,
+    0.037302546899035
+  ],
+  "calibration_files": [
+    "data/data_experiments_L298N_A90/gen_006/experiment_2026_04_04_09_32_31_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_007/experiment_2026_04_04_09_33_22_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_008/experiment_2026_04_04_09_34_13_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_009/experiment_2026_04_04_09_35_04_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_010/experiment_2026_04_04_09_35_55_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_011/experiment_2026_04_04_09_36_46_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_012/experiment_2026_04_04_09_37_37_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_013/experiment_2026_04_04_09_38_28_L298N.mat",
+    "data/data_experiments_L298N_A90/gen_014/experiment_2026_04_04_09_39_19_L298N.mat"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "A_Lizarraga_github": {
+    "records": 2942,
+    "controller_runs": 2942,
+    "run_eligibility": {
+      "ELIGIBLE": 1442,
+      "ELIGIBLE_WITH_NOTE": 827,
+      "EXCLUDED_FAILED_CONTROL": 414,
+      "RESTRICTED_SATURATION": 259
+    },
+    "distinct_controllers": 2447,
+    "controllers_with_>=2_runs": 5,
+    "controllers_with_>=2_eligible_runs": 4,
+    "max_runs_one_controller": 259,
+    "roles": {
+      "single_run_controller": 2103,
+      "amplitude_sweep_two_controllers": 418,
+      "failed_campaign_sign_runaway": 364,
+      "repeated_controller": 57
+    }
+  },
+  "B_OpenMCT_mendeley": {
+    "records": 27,
+    "controller_runs": 14,
+    "run_eligibility": {
+      "NOT_CONTROLLER_RUN": 13,
+      "ELIGIBLE": 13,
+      "ELIGIBLE_WITH_NOTE": 1
+    },
+    "distinct_controllers": 11,
+    "controllers_with_>=2_runs": 3,
+    "controllers_with_>=2_eligible_runs": 3,
+    "max_runs_one_controller": 2,
+    "roles": {
+      "single_run_controller": 8,
+      "open_loop_APRBS_identification": 7,
+      "controller_repeated_across_versions_unmatched_protocol": 6,
+      "current_calibration": 2,
+      "open_loop_static_triangular": 2,
+      "open_loop_chirp": 2
+    }
+  }
+}

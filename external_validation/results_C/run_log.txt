@@ -1,0 +1,10 @@
+2026-10-08T04:21:38Z  verified: 4 frozen inputs; 88/88 eligible files (extracted bytes == zip bytes == manifest); 6 comparisons = (ZN->PT, PT->GS, GS->PSO) x (S1, S3); calibration=02-07, holdout=08-11, targets=next block 02-05, all targets later than source holdout
+2026-10-08T04:21:38Z  analysis_C.py sha256 3c893208a8c47083d6641277c21a06f1f6fd2fbeacadd93e78f14b809b24712b
+2026-10-08T04:21:39Z  stage 1 complete: opened only the 48 calibration files; 40 source models written (point-fit failures: 0); calibration_models.json sha 68e5622f28a42601119465656b4d614c1a991ca2b2d94d8c5f88b896028d36b6
+2026-10-08T04:21:39Z  stage 2: holdout, target and interleaved-pass files opened
+2026-10-08T04:21:59Z  config primary done
+2026-10-08T04:22:16Z  config sens_a_no_intercept done
+2026-10-08T04:22:34Z  config sens_b_5pct done
+2026-10-08T04:22:54Z  config sens_c_t_ge_2s done
+2026-10-08T04:23:15Z  config sens_d_excl_ramp done
+2026-10-08T04:23:15Z  analysis complete; files opened in total: 88 (expected 88)

@@ -1,0 +1,28 @@
+{
+  "point_fit_failures": [],
+  "bootstrap_failures": [],
+  "quantization": {
+    "S1": {
+      "u_distinct": 57,
+      "u_step": 0.09999999999999964,
+      "u_range": [
+        0.0,
+        5.6
+      ],
+      "f_step": 0.09999999999990905,
+      "u_quant_noise_std_V": 0.02886751345948129
+    },
+    "S3": {
+      "u_distinct": 64,
+      "u_step": 0.09999999999999964,
+      "u_range": [
+        0.0,
+        6.3
+      ],
+      "f_step": 0.09999999999990905,
+      "u_quant_noise_std_V": 0.02886751345948129
+    }
+  },
+  "B": 600,
+  "seed": 33043
+}

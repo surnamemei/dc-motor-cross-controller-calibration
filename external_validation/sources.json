@@ -1,0 +1,99 @@
+{
+  "retrieved": "2026-10-08",
+  "candidate_A": {
+    "name": "Closed-Loop Learning-Based PID Tuning for DC Motor Actuators (GitHub repository)",
+    "repository": "https://github.com/DrLizarraga/Closed-Loop-Learning-Based-PID-Tuning-for-DC-Motor-Actuators",
+    "commit": "8c74893a15c2c110e880d41eabd0d648bd2dcc93",
+    "license": "MIT (LICENSE file; README extends it to the data files)",
+    "publication": {
+      "doi": "10.3390/eng7080397",
+      "citation": "Lizarraga J.A. et al., Eng 2026, 7(8), 397",
+      "license": "CC BY 4.0",
+      "note": "the repository README cites the placeholder DOI 10.3390/eng1010000, which does not resolve"
+    },
+    "per_file_sha256": "manifests/candidate_A_runs.csv (column sha256, 2942 experiment files)"
+  },
+  "candidate_B_v2": {
+    "name": "Dataset for an end-to-end open-source DC motor control workflow: current calibration, system identification, and controller validation",
+    "dataset_id": "5xvg43r9r8",
+    "version": 2,
+    "doi": "10.17632/5xvg43r9r8.2",
+    "url": "https://data.mendeley.com/datasets/5xvg43r9r8/2",
+    "published": "2026-09-06T21:56:38.071Z",
+    "license": "CC BY 4.0",
+    "authors": "A. Von Chong, D. Cardenas",
+    "related_articles": [
+      "10.1016/j.ohx.2026.e00794",
+      "10.1016/j.dib.2026.113274"
+    ],
+    "full_dataset_verification": "161/161 files matched Mendeley-reported SHA-256; 160/160 matched the dataset's SHA256SUMS.txt",
+    "required_files_sha256": {
+      "01_current_calibration/raw_data.txt": "4d53a03e661f6589c407c252d84e2cb575166015f857329fba73c9119eb5a903",
+      "02_static_characterization/raw_triangular_data.txt": "ad74eb270877cc34cdec642e929cb49309d338d1677f8279ecee23851087618a",
+      "03_system_identification/02 ms sampling time/raw_data.txt": "759eec26fed17817769265298c3ae50be2da75a7e2a1fac9dadfb4b9bffbd172",
+      "03_system_identification/10 ms sampling time/raw_data.txt": "a84a21bd7bf2dee68f6f91d471f6473301feb61182fbd9f59d997c44cc2c09bc",
+      "03_system_identification/20 ms sampling time/raw_data.txt": "3d2b41602ba6e150655ae39079b2880604670a6801e853cad617cb145b695e36",
+      "03_system_identification/50 ms sampling time/raw_data.txt": "ae5bac206643332d737f01025efd6befd7f6691ad14ba70706526d2cc54936ce",
+      "04_continuous_PID_validation/10_ms/raw_data_10ms.txt": "433903d3b46f6e11efbc6cbebf8415c12f6fef88cf92af4fda8ab7cd80590ccd",
+      "04_continuous_PID_validation/20_ms/raw_data_20ms.txt": "48008ed16a4604d384f585b59a5b8a18688cf714aa85a6d0deebfe10b29029e6",
+      "04_continuous_PID_validation/50_ms/raw_data_50ms.txt": "8f6ba20b9b5e4b53d38251daaa01ea6bdeaeac54b786f2dc9f361a8e6ea5fc6e",
+      "04_continuous_PID_validation/5_ms/raw_data_5ms.txt": "652343e019829d8aee1d8db09e2cc1b20ad652127814971d50f5c76e7d8654af",
+      "05_discrete_controller_validation/Case_a_integrator_overdamped_gain_of_3.86/raw_data.txt": "99188b126471e40ec2d53f24bc7e0ebb0b4a9e80ecd2d748b5ba082c04a1957a",
+      "05_discrete_controller_validation/Case_b_integrator_underdamped_gain_of_13/raw_data.txt": "c631eb8867af8ce7db8c3dde116b11beff6154d511776f1b4a9c961a59186a93",
+      "05_discrete_controller_validation/Case_c_integrator_with_added_zero_at_0.66_gain_of_9.9/raw_data.txt": "bfbe0644f3cf83578ed169f4891094eaa0fcd8cd1044627a9f1a494488b2d3ee",
+      "optional_characterization/raw_chirp_data.txt": "63e89c9564ad50215d0c5099aee8816d18053d40d4a316e5760f0b03412e6a12",
+      "04_continuous_PID_validation/continuous_PI_controller_parameters.csv": "e911c038a5d52ef5e4b9e916fad9212ae4ebab6975180407bea4c139eb4615f6",
+      "05_discrete_controller_validation/discrete_controller_parameters.csv": "4bb2cef3728cfe2f7a34414cabdbb630b3d1da9520fd8482d4c94e4dfa874d98"
+    }
+  },
+  "candidate_B_v1": {
+    "dataset_id": "5xvg43r9r8",
+    "version": 1,
+    "doi": "10.17632/5xvg43r9r8.1",
+    "url": "https://data.mendeley.com/datasets/5xvg43r9r8/1",
+    "published": "2026-05-11",
+    "license": "CC BY 4.0",
+    "use": "provenance and repetition check only",
+    "required_files_sha256": {
+      "01_current_calibration/raw_data.txt": "9dfa5b4ffaea999ef3792537b3a17611feb6ee3da0add47c63857cb11f0179a3",
+      "02_static_characterization/raw_triangular_data.txt": "2856825cb2f14a24b257e3eadb4f9bd7d54c07422149e7b241b85a8a5eda678b",
+      "03_system_identification/02 ms sampling time/raw_data.txt": "28a3f31f990ee1ec5241da6b407e3896dd64b0675cf08a65584f16251428bafa",
+      "03_system_identification/10 ms sampling time/raw_data.txt": "198770b1bb27f13617531b0fbbc6ade83b69e3032562f19dc33c8bb7f19e3f24",
+      "03_system_identification/20 ms sampling time/raw_data.txt": "2786bf5afe6b45f01b7a662f83ba3f9a7c6489de1991321727901f3e75a53a0c",
+      "04_continuous_PID_validation/10_ms/raw_data_10ms.txt": "80b817f3869e7dbc089d1f1f1e9b0eed96899a7ecffcdb13ac80ed7b1cef27ea",
+      "04_continuous_PID_validation/20_ms/raw_data_20ms.txt": "40de82b4d4e18099add91af937c5223b09d0140ff3f94bdb31ebec44ac27b356",
+      "04_continuous_PID_validation/50_ms/raw_data_50ms.txt": "79cc3811a4a0e9ac730fca17fe6a0cf6da47bcc2ddc1a9856004650dd5fb9814",
+      "04_continuous_PID_validation/5_ms/raw_data_5ms.txt": "18b512787c4648cc35cebe4cc19cdf47c0169e11ffc21e33f5c6cb5515a37a9c",
+      "05_discrete_controller_validation/Case_a_integrator_overdamped_gain_of_3.86/raw_data.txt": "0f04a33d77e098d22d385d3eb663a9fb4398a69e60e39a339c185e41269917ff",
+      "05_discrete_controller_validation/Case_b_integrator_underdamped_gain_of_13/raw_data.txt": "f117caa133fc14e4a6e71232daf6eb23cabe40b914b3285f93fbab2060870c27",
+      "05_discrete_controller_validation/Case_c_integrator_with_added_zero_at_0.66_gain_of_9.9/raw_data.txt": "708f739230827f64d65b329799efbfcfbf4523dd99ba5714ba24e331b2d4447e",
+      "optional_characterization/raw_chirp_data.txt": "63e89c9564ad50215d0c5099aee8816d18053d40d4a316e5760f0b03412e6a12"
+    }
+  },
+  "candidate_C_v1": {
+    "name": "ET-RLS-STR: Event-Triggered Self-Tuning Speed Control on STM32 - Reproducibility Package",
+    "doi": "10.5281/zenodo.21201595",
+    "concept_doi": "10.5281/zenodo.21201594",
+    "version": "1.0.0",
+    "published": "2026-07-05",
+    "license": "MIT",
+    "authors": "T. T. Tran, N. T. Tran",
+    "file": "etrls-str-stm32-v1.0.zip",
+    "download_url": "https://zenodo.org/records/21201595/files/etrls-str-stm32-v1.0.zip?download=1",
+    "size": 20079919,
+    "md5": "5854bc25599e66282818ecfec73f974f",
+    "sha256": "2df790e4e2f1fba74022e2f3fad2d7f3d8f9dad4f1a4b02dd6f40b7425fb9af6"
+  },
+  "candidate_C_v2": {
+    "record": "https://zenodo.org/records/21389722",
+    "version": "2.0.0",
+    "published": "2026-07-16",
+    "license": "MIT",
+    "file": "etrls-str-stm32-v2.0.zip",
+    "download_url": "https://zenodo.org/records/21389722/files/etrls-str-stm32-v2.0.zip?download=1",
+    "size": 21867678,
+    "md5": "afbed098508205165edd509768112399",
+    "sha256": "2f7ef2602d79672897322b6fbc37d0469a58f1ab659ac36fb91d1d39e8a8900e",
+    "use": "per-file modification times (run chronology) and v1/v2 content comparison only"
+  }
+}

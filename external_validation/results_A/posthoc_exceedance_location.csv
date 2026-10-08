@@ -1,0 +1,4 @@
+role,0-0.1s,0.1-0.25s,0.25-0.5s,0.5-1s,1-2.5s
+source_calibration,2,0,0,0,6
+source_holdout,0,0,0,1,0
+target_evaluation,13,1,2,8,7

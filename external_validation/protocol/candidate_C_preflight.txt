@@ -1,0 +1,1 @@
+2026-10-08T04:21:22Z  verified: 4 frozen inputs; 88/88 eligible files (extracted bytes == zip bytes == manifest); 6 comparisons = (ZN->PT, PT->GS, GS->PSO) x (S1, S3); calibration=02-07, holdout=08-11, targets=next block 02-05, all targets later than source holdout

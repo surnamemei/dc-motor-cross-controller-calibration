@@ -1,0 +1,111 @@
+{
+  "model": "ARX(2,2,1): y[k] = -a1 y[k-1] - a2 y[k-2] + b1 ua[k-1] + b2 ua[k-2]",
+  "rows_per_run": 100,
+  "strata": {
+    "2026-04-04": {
+      "decision": "GO",
+      "calibration_files": [
+        "data/data_experiments_L298N_A90/gen_006/experiment_2026_04_04_09_32_31_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_007/experiment_2026_04_04_09_33_22_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_008/experiment_2026_04_04_09_34_13_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_009/experiment_2026_04_04_09_35_04_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_010/experiment_2026_04_04_09_35_55_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_011/experiment_2026_04_04_09_36_46_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_012/experiment_2026_04_04_09_37_37_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_013/experiment_2026_04_04_09_38_28_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_014/experiment_2026_04_04_09_39_19_L298N.mat"
+      ],
+      "calibration_file_sha256": [
+        "8b9144682e4a14218a4ad8dcc3ccf86f5bc66e5aa163787432bc2418d9a57229",
+        "300fef181bb1eafdb78257a4df1be9b7fa4193c678b06373a5c50b83f19c7dbb",
+        "6d0936e0141fd5216796582b82a2a3e145217fe243fecf2e7ddedf98af6a68d0",
+        "d33f4a13cd80e4643a8f36b80f10cd717a8a1e1e2a40627e1b5100784a48d0ec",
+        "0a7affedd83da0aaacd3200075e51a19d8044cb0acec170d21e6b38126da1ffc",
+        "2665163e8ad88f699f74930117b98ce2c6572997bcb3d308c97eb3d8cc9ef8f6",
+        "602f014f880701b3c4b9bbe016ad8c93a4075c1019edb27d7948e74a33a0ae87",
+        "f8ce39190599a787c8bee9e029b9a80a57355d5d26711b496f09eb2610cef5fc",
+        "fff589bcd936dd9763bf9ded13c01cfc73682deed2e6271569bf2f9471dd543e"
+      ],
+      "n_rows": 900,
+      "theta": {
+        "a1": "-1.667396718497659",
+        "a2": "0.6663068520648273",
+        "b1": "0.017660328514098312",
+        "b2": "0.037302546899035"
+      },
+      "poles": [
+        "(1.0032451143028946+0j)",
+        "(0.6641516041947645+0j)"
+      ],
+      "pole_abs": [
+        1.0032451143028946,
+        0.6641516041947645
+      ],
+      "regressor_condition_number": 47.931342004057015,
+      "acceptance_checks": {
+        "finite_rows": true,
+        "rows_ge_800": true,
+        "cond_lt_1e6": true,
+        "poles_abs_le_1.02": true,
+        "b1_plus_b2_gt_0": true
+      }
+    },
+    "2026-05-23": {
+      "decision": "STOP (model acceptance)",
+      "calibration_files": [
+        "data/data_experiments_L298N_A90/gen_021/experiment_2026_05_23_22_33_28_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_022/experiment_2026_05_23_22_38_38_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_023/experiment_2026_05_23_22_43_46_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_024/experiment_2026_05_23_22_48_54_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_025/experiment_2026_05_23_22_54_03_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_026/experiment_2026_05_23_22_59_11_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_027/experiment_2026_05_23_23_04_20_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_028/experiment_2026_05_23_23_09_28_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_029/experiment_2026_05_23_23_14_37_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_030/experiment_2026_05_23_23_19_46_L298N.mat",
+        "data/data_experiments_L298N_A90/gen_031/experiment_2026_05_23_23_24_54_L298N.mat"
+      ],
+      "calibration_file_sha256": [
+        "16e1bef741e5e96f6373e8c043ffde15bf587ebfd59c06041c61f9b7642f3bc3",
+        "0c9592052b5c13f327b21df41fa0b5ba89312300f3c70a1277d92bd948427c7b",
+        "fdf0ab964b7647b52105d500520fe664099c615bf8c52e1393ad35090b4c3d3a",
+        "e29b1592d90c8e54b8db00bb8e47ad8e54306df460c28c8854c72839aed67617",
+        "9c08778e7b3ec562c00488fc8815e6f59f0f62aa9b4097902ad2ebc2be81d916",
+        "8c224cb7dd62483c6abdce22ac62b5dffb53d1f3631eaacbc89e1ee5b719740d",
+        "ebd9ecd48282d516b602644d536fac726e5554551cb3ac40b8359beef807fe0c",
+        "d240ebd8d95eb7033311e3c0b970895de907d044dfcfb3a58f760cf87cc387b2",
+        "4feca26fbde4e989e39d38ff7e710b7cbe176b168dff560b1851802d7f3e4fea",
+        "93784c2f8451719ae12e6b2934549aa5ba46c30ac0254f8074f06c665f61e5ce",
+        "8af7cce18064e901c4b129cef43d3c2a53e6ec3c0a3e52a2f49f234a00a7a76f"
+      ],
+      "n_rows": 1100,
+      "theta": {
+        "a1": "-1.8996940370751663",
+        "a2": "0.8950988370910398",
+        "b1": "0.02123389800107162",
+        "b2": "0.010548789424877147"
+      },
+      "poles": [
+        "(1.0341709269722381+0j)",
+        "(0.8655231101029282+0j)"
+      ],
+      "pole_abs": [
+        1.0341709269722381,
+        0.8655231101029282
+      ],
+      "regressor_condition_number": 46.81631259484019,
+      "acceptance_checks": {
+        "finite_rows": true,
+        "rows_ge_800": true,
+        "cond_lt_1e6": true,
+        "poles_abs_le_1.02": false,
+        "b1_plus_b2_gt_0": true
+      }
+    },
+    "2026-05-24": {
+      "decision": "STOP (split)",
+      "fitted": false
+    }
+  },
+  "coefficients_sha256": "985e833953f9d0cff93e42e2a360dbbb53197b31fa8aff277aa9f3b22c0cf489"
+}

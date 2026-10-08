@@ -69,3 +69,5 @@ results/**/raw_simulations/
 build/
 dist/
 *.egg-info/
+# Third-party inputs fetched by external_validation/tools/fetch_public_inputs.py (never committed)
+external_validation/raw/

@@ -1,0 +1,132 @@
+{
+  "kstar_n": 57,
+  "kstar_distinct_ack_gains": [
+    "4.999010,8.003378,0.156947"
+  ],
+  "kstar_distinct_RUN_command_gains": [
+    "4.999010,8.003378,0.156947"
+  ],
+  "kstar_distinct_requested_doubles": [
+    "4.999010254763151,8.00337810067222,0.15694720663178266"
+  ],
+  "matched_conditions_distinct_all_learning_runs": {
+    "89.999992|500|3000|25|1336.000000|0.269461066|0.500000|-255.000000|255.000000|-1": 2160
+  },
+  "n_samples_distinct": [
+    121
+  ],
+  "non_kstar_runs_with_kstar_ack_gains": 0,
+  "kstar_by_day": {
+    "2026-04-04": 17,
+    "2026-05-23": 17,
+    "2026-05-24": 23
+  },
+  "kstar_by_day_eligibility": {
+    "2026-04-04": {
+      "ELIGIBLE": 17,
+      "ELIGIBLE_WITH_NOTE": 0
+    },
+    "2026-05-23": {
+      "ELIGIBLE": 9,
+      "ELIGIBLE_WITH_NOTE": 8
+    },
+    "2026-05-24": {
+      "ELIGIBLE": 5,
+      "ELIGIBLE_WITH_NOTE": 18
+    }
+  },
+  "kstar_per_generation_counts": {
+    "1": 57
+  },
+  "generations_without_kstar": [
+    1,
+    2,
+    3
+  ],
+  "generations_by_day": {
+    "2026-04-04": {
+      "min": 1,
+      "max": 20,
+      "nunique": 20
+    },
+    "2026-05-23": {
+      "min": 21,
+      "max": 37,
+      "nunique": 17
+    },
+    "2026-05-24": {
+      "min": 37,
+      "max": 60,
+      "nunique": 24
+    }
+  },
+  "kstar_generation_list_by_day": {
+    "2026-04-04": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "2026-05-23": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "2026-05-24": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  "kstar_position_in_generation": {
+    "1": 56,
+    "5": 1
+  }
+}

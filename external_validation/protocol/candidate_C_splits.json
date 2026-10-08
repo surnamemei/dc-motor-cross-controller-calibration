@@ -1,0 +1,789 @@
+{
+  "rules": "Fixed splits for the STM32 (Candidate C) protocol. Metadata only, no residuals.\nPer scenario (S1, S3 kept separate), fixed-PI blocks in chronological order ZN -> PT -> GS -> PSO.\nPrimary chain pairs (source -> next block): source calibration = runs 02-07, source holdout = runs 08-11,\ntarget = next block runs 02-05 (immediately following the source holdout in time).",
+  "scenarios": {
+    "S1": {
+      "chain_pairs": [
+        {
+          "source": "ZN",
+          "target": "PT",
+          "target_runs": [
+            {
+              "file": "data/PT/S1/run02.csv",
+              "run": 2,
+              "sha256": "5fb8426c3fd2a9a3cac85269c0336bc23f8fddf3085b07eb34761be0f27f3bc9",
+              "time": "2026-07-01 14:08:48"
+            },
+            {
+              "file": "data/PT/S1/run03.csv",
+              "run": 3,
+              "sha256": "5d3842d6be8e6cdc3032dd58ed7d916edfd2dbd9ab5527bc1d3c0bdaf428b311",
+              "time": "2026-07-01 14:09:14"
+            },
+            {
+              "file": "data/PT/S1/run04.csv",
+              "run": 4,
+              "sha256": "cf014fddbde1ddb0d92ce22b9aff4abf8cf968173681393402d6f32be1cd96fa",
+              "time": "2026-07-01 14:09:40"
+            },
+            {
+              "file": "data/PT/S1/run05.csv",
+              "run": 5,
+              "sha256": "dbd683542093e5d301c401a2992c25493e4cf7a79a30ab18083ae70013b02bbc",
+              "time": "2026-07-01 14:10:06"
+            }
+          ]
+        },
+        {
+          "source": "PT",
+          "target": "GS",
+          "target_runs": [
+            {
+              "file": "data/GS/S1/run02.csv",
+              "run": 2,
+              "sha256": "d48a660765e3a57a2e353216ba0e367c054776cad4760a41cea71114c2408e46",
+              "time": "2026-07-01 14:13:10"
+            },
+            {
+              "file": "data/GS/S1/run03.csv",
+              "run": 3,
+              "sha256": "ad4128f183093f7a85744cdd86b0609eb8e9cd64fc92b3e5ba7d0134b1cf0dd7",
+              "time": "2026-07-01 14:13:36"
+            },
+            {
+              "file": "data/GS/S1/run04.csv",
+              "run": 4,
+              "sha256": "511184412e0e19ecd3df987449e02c6c1cfe6930bb9ef5f38cbe86f81c93e2a2",
+              "time": "2026-07-01 14:14:04"
+            },
+            {
+              "file": "data/GS/S1/run05.csv",
+              "run": 5,
+              "sha256": "49211bde6d1201aeecc3747908439120bf8c97b799fcd84d586b5e444140516d",
+              "time": "2026-07-01 14:14:30"
+            }
+          ]
+        },
+        {
+          "source": "GS",
+          "target": "PSO",
+          "target_runs": [
+            {
+              "file": "data/PSO/S1/run02.csv",
+              "run": 2,
+              "sha256": "1497e75a6fa58c58479c970baa728584d2a12851b536f1e98fcb4ef8e3b440e0",
+              "time": "2026-07-01 14:17:34"
+            },
+            {
+              "file": "data/PSO/S1/run03.csv",
+              "run": 3,
+              "sha256": "2bd6133bc2403e8d09686b3782f522d08e948d498f54c59069d913ed8abf6968",
+              "time": "2026-07-01 14:18:00"
+            },
+            {
+              "file": "data/PSO/S1/run04.csv",
+              "run": 4,
+              "sha256": "75d38f0e53ef4c5ab4ceed346f68b3d5bcae98aba357b9097ee31e43cd9e9d86",
+              "time": "2026-07-01 14:18:26"
+            },
+            {
+              "file": "data/PSO/S1/run05.csv",
+              "run": 5,
+              "sha256": "b005e7b9eaad508e47af3d28b24a5c280cefe0f30a2b8773dcdeb3b2ea47b8d5",
+              "time": "2026-07-01 14:18:52"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "ZN": {
+          "calibration": [
+            {
+              "file": "data/ZN/S1/run02.csv",
+              "run": 2,
+              "sha256": "a08aa150a83cee7d9b4fc98d0f858d1cf0bb74bf98f77ec9f2de63110d020d1c",
+              "time": "2026-07-01 14:04:26"
+            },
+            {
+              "file": "data/ZN/S1/run03.csv",
+              "run": 3,
+              "sha256": "eb621542f5a89d309279dfc895771fe1e065aa348c7c20b29084266f223da0e3",
+              "time": "2026-07-01 14:04:52"
+            },
+            {
+              "file": "data/ZN/S1/run04.csv",
+              "run": 4,
+              "sha256": "e296cd0f0466a5189253e3cc24b4cd7f4c1f0133f1ce307ce47ee6bfb55db71e",
+              "time": "2026-07-01 14:05:18"
+            },
+            {
+              "file": "data/ZN/S1/run05.csv",
+              "run": 5,
+              "sha256": "46fe6f5d1cd8b57cfdfdba31d640e0a5c241c18b9b351eb2651f458b74c64268",
+              "time": "2026-07-01 14:05:44"
+            },
+            {
+              "file": "data/ZN/S1/run06.csv",
+              "run": 6,
+              "sha256": "f4fa96543e463e82b448615a6c3be7c91029e53f2f92ad753f3a92949434b144",
+              "time": "2026-07-01 14:06:10"
+            },
+            {
+              "file": "data/ZN/S1/run07.csv",
+              "run": 7,
+              "sha256": "c8a5d6cebc78165a1a69d37883e15fc83e3199ad08c05851477ef1e58e63e34f",
+              "time": "2026-07-01 14:06:36"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/ZN/S1/run08.csv",
+              "run": 8,
+              "sha256": "af7e4c557b5aa76c03b9e755174df92cfd9027403ba66b4505bf0a94e66d9cbe",
+              "time": "2026-07-01 14:07:02"
+            },
+            {
+              "file": "data/ZN/S1/run09.csv",
+              "run": 9,
+              "sha256": "bedee86e32aa7236d38976eb250ec1a57d3f5e5451fcf8d94a8d34912a85d1de",
+              "time": "2026-07-01 14:07:30"
+            },
+            {
+              "file": "data/ZN/S1/run10.csv",
+              "run": 10,
+              "sha256": "55d9b8fc7819f9a0400aa766af7574eb204f2f5bbd786bea4140506157f700f0",
+              "time": "2026-07-01 14:07:56"
+            },
+            {
+              "file": "data/ZN/S1/run11.csv",
+              "run": 11,
+              "sha256": "16fbe64c8c646d9384dc573f1bf39bbf47f3797e37e66e5636383cb54d7b6282",
+              "time": "2026-07-01 14:08:22"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/ZN/S1/run01.csv",
+              "run": 1,
+              "sha256": "f26f2d6f78a6c3cc1d32cb868c61a775bd578747ecddb670ffdf5541674019a3",
+              "time": "2026-07-01 13:49:34"
+            }
+          ]
+        },
+        "PT": {
+          "calibration": [
+            {
+              "file": "data/PT/S1/run02.csv",
+              "run": 2,
+              "sha256": "5fb8426c3fd2a9a3cac85269c0336bc23f8fddf3085b07eb34761be0f27f3bc9",
+              "time": "2026-07-01 14:08:48"
+            },
+            {
+              "file": "data/PT/S1/run03.csv",
+              "run": 3,
+              "sha256": "5d3842d6be8e6cdc3032dd58ed7d916edfd2dbd9ab5527bc1d3c0bdaf428b311",
+              "time": "2026-07-01 14:09:14"
+            },
+            {
+              "file": "data/PT/S1/run04.csv",
+              "run": 4,
+              "sha256": "cf014fddbde1ddb0d92ce22b9aff4abf8cf968173681393402d6f32be1cd96fa",
+              "time": "2026-07-01 14:09:40"
+            },
+            {
+              "file": "data/PT/S1/run05.csv",
+              "run": 5,
+              "sha256": "dbd683542093e5d301c401a2992c25493e4cf7a79a30ab18083ae70013b02bbc",
+              "time": "2026-07-01 14:10:06"
+            },
+            {
+              "file": "data/PT/S1/run06.csv",
+              "run": 6,
+              "sha256": "d2d166798e524a68978955a5694dd1b627384b55bacce3b0165e53259cf4d451",
+              "time": "2026-07-01 14:10:34"
+            },
+            {
+              "file": "data/PT/S1/run07.csv",
+              "run": 7,
+              "sha256": "fc2168fb001c5f3a2ae4eb6ac512bee0a38ba35a8b34d0811836c54a4a3d387e",
+              "time": "2026-07-01 14:11:00"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/PT/S1/run08.csv",
+              "run": 8,
+              "sha256": "a4fade83d7040de78a3d33f664e12f3d2b2c2c3960bfe0c1d582d2201f308517",
+              "time": "2026-07-01 14:11:26"
+            },
+            {
+              "file": "data/PT/S1/run09.csv",
+              "run": 9,
+              "sha256": "d9cbcbb1f0dbe00ae0674b93512f71c8991fcc3658a2c081946c11e3cc079155",
+              "time": "2026-07-01 14:11:52"
+            },
+            {
+              "file": "data/PT/S1/run10.csv",
+              "run": 10,
+              "sha256": "5e76ed6b2db066bc7f6109c2c369ab883b7b509ddb98f79480f51239586b2c27",
+              "time": "2026-07-01 14:12:18"
+            },
+            {
+              "file": "data/PT/S1/run11.csv",
+              "run": 11,
+              "sha256": "0d5a33fe225deb9fef5af69f43b8dcbe2098e0122be6e9910a58ccef2fb960a6",
+              "time": "2026-07-01 14:12:44"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/PT/S1/run01.csv",
+              "run": 1,
+              "sha256": "2f4b4e9b165cb9263982223137cb32738ebf4ea645d4952f701119447854b5ac",
+              "time": "2026-07-01 13:50:00"
+            }
+          ]
+        },
+        "GS": {
+          "calibration": [
+            {
+              "file": "data/GS/S1/run02.csv",
+              "run": 2,
+              "sha256": "d48a660765e3a57a2e353216ba0e367c054776cad4760a41cea71114c2408e46",
+              "time": "2026-07-01 14:13:10"
+            },
+            {
+              "file": "data/GS/S1/run03.csv",
+              "run": 3,
+              "sha256": "ad4128f183093f7a85744cdd86b0609eb8e9cd64fc92b3e5ba7d0134b1cf0dd7",
+              "time": "2026-07-01 14:13:36"
+            },
+            {
+              "file": "data/GS/S1/run04.csv",
+              "run": 4,
+              "sha256": "511184412e0e19ecd3df987449e02c6c1cfe6930bb9ef5f38cbe86f81c93e2a2",
+              "time": "2026-07-01 14:14:04"
+            },
+            {
+              "file": "data/GS/S1/run05.csv",
+              "run": 5,
+              "sha256": "49211bde6d1201aeecc3747908439120bf8c97b799fcd84d586b5e444140516d",
+              "time": "2026-07-01 14:14:30"
+            },
+            {
+              "file": "data/GS/S1/run06.csv",
+              "run": 6,
+              "sha256": "52c98eae0dab4ce517f13bf96933d783b8caacda8c979faecdabb69749eedd77",
+              "time": "2026-07-01 14:14:56"
+            },
+            {
+              "file": "data/GS/S1/run07.csv",
+              "run": 7,
+              "sha256": "9500bfaefef9f50665ef935b57bde1e4feda06174a82ab5334bad9a55262b1c9",
+              "time": "2026-07-01 14:15:22"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/GS/S1/run08.csv",
+              "run": 8,
+              "sha256": "3beb9986a0f3e8fab7394e13f980a90311bf71d75cc752ee9edacdccc61bb206",
+              "time": "2026-07-01 14:15:48"
+            },
+            {
+              "file": "data/GS/S1/run09.csv",
+              "run": 9,
+              "sha256": "a168124cbf586aa6d9c78b33de9dea97e05542bbf3f5cc156ab94b786d17d2da",
+              "time": "2026-07-01 14:16:14"
+            },
+            {
+              "file": "data/GS/S1/run10.csv",
+              "run": 10,
+              "sha256": "8ed323b118bb3f51ab6f2d8e8bb8e6fccf3e2510d3fa989425602cc15e672601",
+              "time": "2026-07-01 14:16:40"
+            },
+            {
+              "file": "data/GS/S1/run11.csv",
+              "run": 11,
+              "sha256": "8da7d0d645102bf60e91ce8c40833b7ccd60a005d2a0e96a8f94e2e7cb9defaa",
+              "time": "2026-07-01 14:17:06"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/GS/S1/run01.csv",
+              "run": 1,
+              "sha256": "1785e6d27a32b9002dd06fc6c8fbe89b908a00dbe3215bdfcfb756c7aa1c2123",
+              "time": "2026-07-01 13:50:26"
+            }
+          ]
+        },
+        "PSO": {
+          "calibration": [
+            {
+              "file": "data/PSO/S1/run02.csv",
+              "run": 2,
+              "sha256": "1497e75a6fa58c58479c970baa728584d2a12851b536f1e98fcb4ef8e3b440e0",
+              "time": "2026-07-01 14:17:34"
+            },
+            {
+              "file": "data/PSO/S1/run03.csv",
+              "run": 3,
+              "sha256": "2bd6133bc2403e8d09686b3782f522d08e948d498f54c59069d913ed8abf6968",
+              "time": "2026-07-01 14:18:00"
+            },
+            {
+              "file": "data/PSO/S1/run04.csv",
+              "run": 4,
+              "sha256": "75d38f0e53ef4c5ab4ceed346f68b3d5bcae98aba357b9097ee31e43cd9e9d86",
+              "time": "2026-07-01 14:18:26"
+            },
+            {
+              "file": "data/PSO/S1/run05.csv",
+              "run": 5,
+              "sha256": "b005e7b9eaad508e47af3d28b24a5c280cefe0f30a2b8773dcdeb3b2ea47b8d5",
+              "time": "2026-07-01 14:18:52"
+            },
+            {
+              "file": "data/PSO/S1/run06.csv",
+              "run": 6,
+              "sha256": "423797e606fa231ef2e15b9db97b71b3b11042826f395b7328a37dc6dcdea050",
+              "time": "2026-07-01 14:19:18"
+            },
+            {
+              "file": "data/PSO/S1/run07.csv",
+              "run": 7,
+              "sha256": "35ea92efd7b8dc2c70274acb9bfa5e85ca7077e511989a3bfaf9ec02ecfeaa04",
+              "time": "2026-07-01 14:19:44"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/PSO/S1/run08.csv",
+              "run": 8,
+              "sha256": "33e6b67d173db29e22f0a127eddaefa4a02c124c14321636dcbe53ed49b97303",
+              "time": "2026-07-01 14:20:10"
+            },
+            {
+              "file": "data/PSO/S1/run09.csv",
+              "run": 9,
+              "sha256": "20914e50809bbad99e2c16f835adc2272f76c5965638ce6b01d6b5704c580e86",
+              "time": "2026-07-01 14:20:38"
+            },
+            {
+              "file": "data/PSO/S1/run10.csv",
+              "run": 10,
+              "sha256": "51985629fbd9208da641307c496f04d6d210a91b2ae3ffa06e1b285b5d24f0b9",
+              "time": "2026-07-01 14:21:04"
+            },
+            {
+              "file": "data/PSO/S1/run11.csv",
+              "run": 11,
+              "sha256": "9e16cffd9866fcbabff71099c856f5c94b4927d806792ca48712c8753d540df2",
+              "time": "2026-07-01 14:21:30"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/PSO/S1/run01.csv",
+              "run": 1,
+              "sha256": "b1333dd838bb7d715427bbd8d64246ba1a5e2466c14845b15be1abfaab10c395",
+              "time": "2026-07-01 13:50:54"
+            }
+          ]
+        }
+      }
+    },
+    "S3": {
+      "chain_pairs": [
+        {
+          "source": "ZN",
+          "target": "PT",
+          "target_runs": [
+            {
+              "file": "data/PT/S3/run02.csv",
+              "run": 2,
+              "sha256": "f4e750669a516296d8b94c0723144520b1f24346eafb350a43ce0c4199273a69",
+              "time": "2026-07-01 14:35:04"
+            },
+            {
+              "file": "data/PT/S3/run03.csv",
+              "run": 3,
+              "sha256": "d0ce8be768801c672aaa2bd787e8fd3224dea8465da2f5c79ec98695b5777a8b",
+              "time": "2026-07-01 14:35:30"
+            },
+            {
+              "file": "data/PT/S3/run04.csv",
+              "run": 4,
+              "sha256": "53ac10485901df60877a3a33364eeb4fd712b94627029e5bd49f9c284c32285b",
+              "time": "2026-07-01 14:35:56"
+            },
+            {
+              "file": "data/PT/S3/run05.csv",
+              "run": 5,
+              "sha256": "85a96700c76bdc1b2d000b1ab15ceebdcdf4500d3424b79986e6a858fb5d0f20",
+              "time": "2026-07-01 14:36:22"
+            }
+          ]
+        },
+        {
+          "source": "PT",
+          "target": "GS",
+          "target_runs": [
+            {
+              "file": "data/GS/S3/run02.csv",
+              "run": 2,
+              "sha256": "a22d6f6e6f7692f8b3eddfb008086a13bb0e163fa62aed1277fd25c6f36c584d",
+              "time": "2026-07-01 14:39:26"
+            },
+            {
+              "file": "data/GS/S3/run03.csv",
+              "run": 3,
+              "sha256": "753bf0715aea84137f6f77b4ac9dd863378278da4fdc2ae2f85b15a4d127b03a",
+              "time": "2026-07-01 14:39:52"
+            },
+            {
+              "file": "data/GS/S3/run04.csv",
+              "run": 4,
+              "sha256": "b687d08bc87899b32fd4f81e01e5477fc73d61f44feff6e9f94bee96d1da4ed9",
+              "time": "2026-07-01 14:40:18"
+            },
+            {
+              "file": "data/GS/S3/run05.csv",
+              "run": 5,
+              "sha256": "d89085a18e0184f93f25486164b2ea41e97e1fdb430e1c40309f477f0597ae2c",
+              "time": "2026-07-01 14:40:46"
+            }
+          ]
+        },
+        {
+          "source": "GS",
+          "target": "PSO",
+          "target_runs": [
+            {
+              "file": "data/PSO/S3/run02.csv",
+              "run": 2,
+              "sha256": "23f294b782a917dd9b627e35ac2656007d6c6e44b834809a78f4b1638ce5ebb8",
+              "time": "2026-07-01 14:43:48"
+            },
+            {
+              "file": "data/PSO/S3/run03.csv",
+              "run": 3,
+              "sha256": "e3c00974d80a0f9271f2d8d52292fb67955dbce2fe5825f4d331796da5970e7d",
+              "time": "2026-07-01 14:44:16"
+            },
+            {
+              "file": "data/PSO/S3/run04.csv",
+              "run": 4,
+              "sha256": "0db08e6d9d04070383d9828714288dae9070e3d5406a1d7e64b971f3093514a6",
+              "time": "2026-07-01 14:44:42"
+            },
+            {
+              "file": "data/PSO/S3/run05.csv",
+              "run": 5,
+              "sha256": "f62228c1d7d1bbd4179a0acefc03d7aa896b39cd3c196df8b0515035b03cb19e",
+              "time": "2026-07-01 14:45:08"
+            }
+          ]
+        }
+      ],
+      "sources": {
+        "ZN": {
+          "calibration": [
+            {
+              "file": "data/ZN/S3/run02.csv",
+              "run": 2,
+              "sha256": "f63a28ebdb1d48c0116e0690a7a356127aa66ee87e989dee8c64a73f3ca5edd8",
+              "time": "2026-07-01 14:30:42"
+            },
+            {
+              "file": "data/ZN/S3/run03.csv",
+              "run": 3,
+              "sha256": "59283fd0f1c18be8da3bfcd1b5a246af2f4fae14fc728e1fe9ecac4de5fcb263",
+              "time": "2026-07-01 14:31:08"
+            },
+            {
+              "file": "data/ZN/S3/run04.csv",
+              "run": 4,
+              "sha256": "354e8350ec9e590a01426f699b117f527d6ae932ccc8a59921554f93e9461a1a",
+              "time": "2026-07-01 14:31:34"
+            },
+            {
+              "file": "data/ZN/S3/run05.csv",
+              "run": 5,
+              "sha256": "3aa41f68077898509e509310f62c2aa9e1fa51982a97602c7edc89e62c62a73e",
+              "time": "2026-07-01 14:32:00"
+            },
+            {
+              "file": "data/ZN/S3/run06.csv",
+              "run": 6,
+              "sha256": "441ef8eb507e29f462e545601b5db94b8c2bdd9f953cd95b542697b81705d109",
+              "time": "2026-07-01 14:32:26"
+            },
+            {
+              "file": "data/ZN/S3/run07.csv",
+              "run": 7,
+              "sha256": "07741b84e057f5a69846b10117b707d17f0a29973196eb325d89dd0b5edb6648",
+              "time": "2026-07-01 14:32:52"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/ZN/S3/run08.csv",
+              "run": 8,
+              "sha256": "b597ec0dfe43b55c33ffb6376777bbb76a008db197f9fd8e1a0fc0baf03b6f73",
+              "time": "2026-07-01 14:33:18"
+            },
+            {
+              "file": "data/ZN/S3/run09.csv",
+              "run": 9,
+              "sha256": "074acdae6eca1a369c3783d6c392478f96400a2fa9ad5910440246f12870c5c0",
+              "time": "2026-07-01 14:33:44"
+            },
+            {
+              "file": "data/ZN/S3/run10.csv",
+              "run": 10,
+              "sha256": "fb6e81154d28ea9078271907bab14b19d80ff179d5c971fc01b27cc0dc25cbbe",
+              "time": "2026-07-01 14:34:12"
+            },
+            {
+              "file": "data/ZN/S3/run11.csv",
+              "run": 11,
+              "sha256": "6eb7a1c74d9196e715664cdb1761c554efd3b727bec482ed26c1009fae9902b2",
+              "time": "2026-07-01 14:34:38"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/ZN/S3/run01.csv",
+              "run": 1,
+              "sha256": "7e8a67aa16234f0dc274a06e77895a4f5574400fd9f81c0265839f71178f5b41",
+              "time": "2026-07-01 13:52:12"
+            }
+          ]
+        },
+        "PT": {
+          "calibration": [
+            {
+              "file": "data/PT/S3/run02.csv",
+              "run": 2,
+              "sha256": "f4e750669a516296d8b94c0723144520b1f24346eafb350a43ce0c4199273a69",
+              "time": "2026-07-01 14:35:04"
+            },
+            {
+              "file": "data/PT/S3/run03.csv",
+              "run": 3,
+              "sha256": "d0ce8be768801c672aaa2bd787e8fd3224dea8465da2f5c79ec98695b5777a8b",
+              "time": "2026-07-01 14:35:30"
+            },
+            {
+              "file": "data/PT/S3/run04.csv",
+              "run": 4,
+              "sha256": "53ac10485901df60877a3a33364eeb4fd712b94627029e5bd49f9c284c32285b",
+              "time": "2026-07-01 14:35:56"
+            },
+            {
+              "file": "data/PT/S3/run05.csv",
+              "run": 5,
+              "sha256": "85a96700c76bdc1b2d000b1ab15ceebdcdf4500d3424b79986e6a858fb5d0f20",
+              "time": "2026-07-01 14:36:22"
+            },
+            {
+              "file": "data/PT/S3/run06.csv",
+              "run": 6,
+              "sha256": "67c2bf9029240891dbe373b79576d32ec8622117530ec6eb510f3ae79152ab5b",
+              "time": "2026-07-01 14:36:48"
+            },
+            {
+              "file": "data/PT/S3/run07.csv",
+              "run": 7,
+              "sha256": "8a390adc52c683c92a351ca0aa0ad1de546d6a7815450c516039c6ea5ed8e6bf",
+              "time": "2026-07-01 14:37:16"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/PT/S3/run08.csv",
+              "run": 8,
+              "sha256": "029c4accbfe11373e7e1587408334e9c76aae9deca3be5f5db940ab6362c6bd6",
+              "time": "2026-07-01 14:37:42"
+            },
+            {
+              "file": "data/PT/S3/run09.csv",
+              "run": 9,
+              "sha256": "d849433ce23fd6dc4d7534c43e8274cbab3eae8bee244c3d64e27c800e8cb2c8",
+              "time": "2026-07-01 14:38:08"
+            },
+            {
+              "file": "data/PT/S3/run10.csv",
+              "run": 10,
+              "sha256": "b2285e2ae69d4d51d27e2840c94b9d6757f5df5aa911b3e7b6e59c8cf4defde9",
+              "time": "2026-07-01 14:38:34"
+            },
+            {
+              "file": "data/PT/S3/run11.csv",
+              "run": 11,
+              "sha256": "101b7ef3f63a95a41fb65ed0c3188837c8d8c67fa67a5636ced9d6f3323c9a1e",
+              "time": "2026-07-01 14:39:00"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/PT/S3/run01.csv",
+              "run": 1,
+              "sha256": "938688c75219c09dd5c33d76b5c9f80691e0d44271630ba1ddf1b231ab210453",
+              "time": "2026-07-01 13:52:38"
+            }
+          ]
+        },
+        "GS": {
+          "calibration": [
+            {
+              "file": "data/GS/S3/run02.csv",
+              "run": 2,
+              "sha256": "a22d6f6e6f7692f8b3eddfb008086a13bb0e163fa62aed1277fd25c6f36c584d",
+              "time": "2026-07-01 14:39:26"
+            },
+            {
+              "file": "data/GS/S3/run03.csv",
+              "run": 3,
+              "sha256": "753bf0715aea84137f6f77b4ac9dd863378278da4fdc2ae2f85b15a4d127b03a",
+              "time": "2026-07-01 14:39:52"
+            },
+            {
+              "file": "data/GS/S3/run04.csv",
+              "run": 4,
+              "sha256": "b687d08bc87899b32fd4f81e01e5477fc73d61f44feff6e9f94bee96d1da4ed9",
+              "time": "2026-07-01 14:40:18"
+            },
+            {
+              "file": "data/GS/S3/run05.csv",
+              "run": 5,
+              "sha256": "d89085a18e0184f93f25486164b2ea41e97e1fdb430e1c40309f477f0597ae2c",
+              "time": "2026-07-01 14:40:46"
+            },
+            {
+              "file": "data/GS/S3/run06.csv",
+              "run": 6,
+              "sha256": "03655b2c87e606cbbffb150c62ff94bc0da8b17d8dc05b39a22a65302345ca4f",
+              "time": "2026-07-01 14:41:12"
+            },
+            {
+              "file": "data/GS/S3/run07.csv",
+              "run": 7,
+              "sha256": "be4d896930cc269bd44ebb3b1a5686cc0097b59a1094a03ee607ff4d5226f5d9",
+              "time": "2026-07-01 14:41:38"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/GS/S3/run08.csv",
+              "run": 8,
+              "sha256": "d4e6bf8d164b7842d1f73090bd203e01d3ba70a41cac0f8d7f0a0b9d8acf235d",
+              "time": "2026-07-01 14:42:04"
+            },
+            {
+              "file": "data/GS/S3/run09.csv",
+              "run": 9,
+              "sha256": "2e0885d126f239772d1e3fc02ed3bb7cd863b5141005325d2696424ca1e1df80",
+              "time": "2026-07-01 14:42:30"
+            },
+            {
+              "file": "data/GS/S3/run10.csv",
+              "run": 10,
+              "sha256": "45004d6591b057d5b0f0d330e747f7770da9d68d04872ccc22941cb7e6fcd82c",
+              "time": "2026-07-01 14:42:56"
+            },
+            {
+              "file": "data/GS/S3/run11.csv",
+              "run": 11,
+              "sha256": "33eec2f27452ab680d371e8d3483af7b5fcbbdb937f933c3468bf5af89f05cd4",
+              "time": "2026-07-01 14:43:22"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/GS/S3/run01.csv",
+              "run": 1,
+              "sha256": "e3f27fda2339c82285856538b8e6a52660f4a2bb722db9bb0bc6c8849cac0b4b",
+              "time": "2026-07-01 13:53:04"
+            }
+          ]
+        },
+        "PSO": {
+          "calibration": [
+            {
+              "file": "data/PSO/S3/run02.csv",
+              "run": 2,
+              "sha256": "23f294b782a917dd9b627e35ac2656007d6c6e44b834809a78f4b1638ce5ebb8",
+              "time": "2026-07-01 14:43:48"
+            },
+            {
+              "file": "data/PSO/S3/run03.csv",
+              "run": 3,
+              "sha256": "e3c00974d80a0f9271f2d8d52292fb67955dbce2fe5825f4d331796da5970e7d",
+              "time": "2026-07-01 14:44:16"
+            },
+            {
+              "file": "data/PSO/S3/run04.csv",
+              "run": 4,
+              "sha256": "0db08e6d9d04070383d9828714288dae9070e3d5406a1d7e64b971f3093514a6",
+              "time": "2026-07-01 14:44:42"
+            },
+            {
+              "file": "data/PSO/S3/run05.csv",
+              "run": 5,
+              "sha256": "f62228c1d7d1bbd4179a0acefc03d7aa896b39cd3c196df8b0515035b03cb19e",
+              "time": "2026-07-01 14:45:08"
+            },
+            {
+              "file": "data/PSO/S3/run06.csv",
+              "run": 6,
+              "sha256": "f9e8214195db305223c0ec842a2858a2d0616165ec088e62068ff901761c84a6",
+              "time": "2026-07-01 14:45:34"
+            },
+            {
+              "file": "data/PSO/S3/run07.csv",
+              "run": 7,
+              "sha256": "398bf1d12f9d36b353de3bcc87e9086d14120c9d0dcc27c0b431019252018cb5",
+              "time": "2026-07-01 14:46:00"
+            }
+          ],
+          "holdout": [
+            {
+              "file": "data/PSO/S3/run08.csv",
+              "run": 8,
+              "sha256": "6c1baa27b2845845f8e156e834c69e69cd096eef0c6ef60cbef46431bc5da5b1",
+              "time": "2026-07-01 14:46:26"
+            },
+            {
+              "file": "data/PSO/S3/run09.csv",
+              "run": 9,
+              "sha256": "78e4254d7cf434e5a1d7e53fff4d40126a6a4f553236419190c648e097b1369d",
+              "time": "2026-07-01 14:46:52"
+            },
+            {
+              "file": "data/PSO/S3/run10.csv",
+              "run": 10,
+              "sha256": "ead81cdf8fee05155ddfb4ee4c1e95e5c6b0f46a32a1b8fd011e088b521e3ad8",
+              "time": "2026-07-01 14:47:20"
+            },
+            {
+              "file": "data/PSO/S3/run11.csv",
+              "run": 11,
+              "sha256": "ed825b658e863d8337ce16000746c67aeadbd88beaf456fc67bd0291a0014276",
+              "time": "2026-07-01 14:47:46"
+            }
+          ],
+          "interleaved_pass_run01": [
+            {
+              "file": "data/PSO/S3/run01.csv",
+              "run": 1,
+              "sha256": "f5f1d691e44e82c6dc13a24cf6864c1019a1372b4a6e863b1da79e01745f2e4f",
+              "time": "2026-07-01 13:53:30"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

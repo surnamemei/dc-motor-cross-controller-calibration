@@ -1,0 +1,50 @@
+{
+  "audit_date": "2026-10-08",
+  "far_or_monitor_tests_run": false,
+  "controllers_selected_on_monitor_outcome": false,
+  "datasets": {
+    "A_Lizarraga_github": {
+      "decision": "SUITABLE WITH RESTRICTED CLAIMS",
+      "control_variable": "position",
+      "source": "https://github.com/DrLizarraga/Closed-Loop-Learning-Based-PID-Tuning-for-DC-Motor-Actuators@8c74893a15c2c110e880d41eabd0d648bd2dcc93",
+      "publication_doi": "10.3390/eng7080397",
+      "readme_doi_placeholder_unresolved": "10.3390/eng1010000",
+      "license": "MIT (code; README extends to data files); paper CC BY 4.0",
+      "usable_subset": "data_experiments_L298N_A90, run_eligibility in {ELIGIBLE, ELIGIBLE_WITH_NOTE}",
+      "within_controller_comparator": "A_Kstar, 57 runs, 3 days (2026-04-04/05-23/05-24), one per generation",
+      "excluded": [
+        "data_experiments_DC_L298N_A90 (sign runaway, 364/364 failed)"
+      ],
+      "secondary": [
+        "validation_amplitudes_L298N (rig label DC12V280RPM undocumented; controller fully confounded with time)"
+      ],
+      "restrictions": [
+        "position control only",
+        "comparison controllers single-run and CEM-selected (not randomised)",
+        "day effect: K* overshoot 16.5% vs ~38% -> stratify by day",
+        "protocol change 8 vs 50 runs per generation",
+        "single 3 s step per run (20 pre / 101 post-step samples)",
+        "logged u is pre-deadband; applied input reconstructable"
+      ],
+      "command_replay": "exact in 2942/2942 runs"
+    },
+    "B_OpenMCT_mendeley": {
+      "decision": "NOT SUITABLE",
+      "control_variable": "speed",
+      "source": "https://data.mendeley.com/datasets/5xvg43r9r8/2 (DOI 10.17632/5xvg43r9r8.2); v1 text files for provenance",
+      "license": "CC BY 4.0",
+      "reasons": [
+        "one run per controller under matched conditions (no within-controller cross-run comparator)",
+        "PI controllers confounded with sample time and tuning plant",
+        "reference levels randomised per run",
+        "v1/v2 repeats of discrete controllers differ in protocol and firmware",
+        "integer-rounded speed; replay only approximate"
+      ],
+      "possible_noncon_uses": [
+        "open-loop model transfer check",
+        "descriptive 20 ms discrete-controller illustration"
+      ],
+      "hash_verification": "161/161 Mendeley SHA-256; 160/160 dataset SHA256SUMS.txt"
+    }
+  }
+}
